@@ -1,0 +1,35 @@
+{
+  "name": "brandbox",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --hostname 127.0.0.1",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "preview": "node serve.cjs out",
+    "test:form": "node scripts/check-form.cjs",
+    "test:http": "node scripts/check-http.cjs",
+    "build:server": "node scripts/server-mode.cjs build",
+    "start:server": "node scripts/server-mode.cjs start",
+    "dev:server": "node scripts/server-mode.cjs dev",
+    "test:orders": "node scripts/check-orders.cjs",
+    "test:server-http": "node scripts/check-server-http.cjs",
+    "test:catalog": "node scripts/check-catalog.cjs",
+    "test:catalog-http": "node scripts/check-catalog-http.cjs",
+    "test:catalog-selection": "node scripts/check-catalog-selection.cjs"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.28.4",
+    "next": "15.5.12",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.1.14",
+    "@types/node": "24.7.2",
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
+    "tailwindcss": "4.1.14",
+    "typescript": "5.9.3"
+  }
+}

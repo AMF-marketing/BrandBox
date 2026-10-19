@@ -1,0 +1,146 @@
+{
+  "method": "OpenAI built-in image_gen, new camera angles from product reference photographs",
+  "date": "2026-10-16",
+  "transparent_background": true,
+  "originals_preserved": true,
+  "unique_cutouts": 17,
+  "asset_count": 17,
+  "scope": "New camera, composition and light; product identity reference retained. Generative illustrations, not physical photography; fine details may differ.",
+  "records": [
+    {
+      "original": "/products/product-01.png",
+      "edited": "/products/studio-v2/product-01.png",
+      "sourceSha256": "4978f102218e7dde446c9e27d234e6f706338ab17c2bbbd17ead4317c952c426",
+      "editedSha256": "0cad94351bab1601043195366943ebc53eb99d3fcb273f7f2b47474968f165b6",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a genuinely new studio product photograph of this SAME model from a DIFFERENT CAMERA ANGLE, not a cutout of the old photo or mirrored pixels. COLOP printer R40 orange round automatic stamp, pale grey open frame and detached orange cylindrical cap. Place cap front-left instead of right; photograph from a new front-right three-quarter angle, slightly higher than reference. Match exact original body geometry, model, colors, materials, visible branding, buttons, hinge count and included accessories. Do not invent hidden hardware. Preserve all printed labels accurately. Clean soft studio key light with realistic material reflections. Centered complete object, 15% clear margins, square catalog composition, no crop, no props, no added text/watermark. Transparent background with real alpha; no baked white rectangle or floor. Commercial catalog illustration preserving product identity."
+    },
+    {
+      "original": "/products/product-03.png",
+      "edited": "/products/studio-v2/product-03.png",
+      "sourceSha256": "8addbdac0b4c994a2ef4a9af9cffcbe193cbe7e86c65c9ba4630f1b577e20089",
+      "editedSha256": "8b3c4409aaa73e50dda491003caa1c52cb6feffcd1330c751ed522c353eedc60",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a genuinely new studio product photograph of this SAME model from a DIFFERENT CAMERA ANGLE, not a cutout of the old photo or mirrored pixels. TABLET black round manual stamp with short turned handle, gold emblem on flat top and detached round black cap. Stand stamp upright with cap front-right; photograph from a new lower three-quarter viewpoint. Match exact original body geometry, model, colors, materials, visible branding, buttons, hinge count and included accessories. Do not invent hidden hardware. Preserve all printed labels accurately. Clean soft studio key light with realistic material reflections. Centered complete object, 15% clear margins, square catalog composition, no crop, no props, no added text/watermark. Transparent background with real alpha; no baked white rectangle or floor. Commercial catalog illustration preserving product identity."
+    },
+    {
+      "original": "/products/product-02.png",
+      "edited": "/products/studio-v2/product-02.png",
+      "sourceSha256": "ea0456a54f8ef44d274590d42137925ecd1d1979cb3849f8c576a25a6891b7c0",
+      "editedSha256": "b422b6c9c91a8af525281090410affb9f81bb9910e85b17df6091bce6f847e0d",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a genuinely new studio product photograph of this SAME model from a DIFFERENT CAMERA ANGLE, not a cutout of the old photo or mirrored pixels. COLOP MOUSE R40 compact closed orange oval pocket stamp with black underside and oval black side button. Photograph from a new lower front three-quarter angle, nose pointing diagonally left, with visible side button and unchanged smooth curved body. Match exact original body geometry, model, colors, materials, visible branding, buttons, hinge count and included accessories. Do not invent hidden hardware. Preserve all printed labels accurately. Clean soft studio key light with realistic material reflections. Centered complete object, 15% clear margins, square catalog composition, no crop, no props, no added text/watermark. Transparent background with real alpha; no baked white rectangle or floor. Commercial catalog illustration preserving product identity."
+    },
+    {
+      "original": "/products/product-04.png",
+      "edited": "/products/studio-v2/product-04.png",
+      "sourceSha256": "aa586a187961c03e9622008a02d133e0fbbb07c348ea2e698c5ca549457c57de",
+      "editedSha256": "77c038959173afe3e0ee0419390a3570b44239f0a2d0915fe6fa5fdeab896885",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a genuinely new studio product photograph of this SAME model from a DIFFERENT CAMERA ANGLE, not a cutout of the old photo or mirrored pixels. IDEAL 46042 black and silver round automatic stamp with red side lock and detached black cap. Cap front-left, stamp behind-right; new three-quarter angle from the side with red lock visible. Match exact original body geometry, model, colors, materials, visible branding, buttons, hinge count and included accessories. Do not invent hidden hardware. Preserve all printed labels accurately. Clean soft studio key light with realistic material reflections. Centered complete object, 15% clear margins, square catalog composition, no crop, no props, no added text/watermark. Transparent background with real alpha; no baked white rectangle or floor. Commercial catalog illustration preserving product identity."
+    },
+    {
+      "original": "/products/product-05.png",
+      "edited": "/products/studio-v2/product-05.png",
+      "sourceSha256": "16b7d22152f9ebe85e9ebf80662412ba026c5aca0d00b5f18a4cbadcb65a8ef9",
+      "editedSha256": "6c1ec6dceacf9e935f5aca4ca955b7b396a513bde8f551063d2e2cd84ba9ff82",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a genuinely new studio product photograph of this SAME model from a DIFFERENT CAMERA ANGLE, not a cutout of the old photo or mirrored pixels. Shiny Printer R-542 glossy black round automatic stamp with red side button and translucent separate cap. Cap front-left and stamp right; new three-quarter angle slightly below reference. Match exact original body geometry, model, colors, materials, visible branding, buttons, hinge count and included accessories. Do not invent hidden hardware. Preserve all printed labels accurately. Clean soft studio key light with realistic material reflections. Centered complete object, 15% clear margins, square catalog composition, no crop, no props, no added text/watermark. Transparent background with real alpha; no baked white rectangle or floor. Commercial catalog illustration preserving product identity."
+    },
+    {
+      "original": "/products/product-08.png",
+      "edited": "/products/studio-v2/product-08.png",
+      "sourceSha256": "e85bf56ee6ad1c6096e6e4e516093651bb24d239a424e7065979c5aad174c2a3",
+      "editedSha256": "f28652530e0b79da4f64f6e72501fdd9e142697b9632dc4ee9bd96e2facdedc5",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a genuinely new studio product photograph of this SAME model from a DIFFERENT CAMERA ANGLE, not a cutout of the old photo or mirrored pixels. TECHNO champagne silver round folding pocket stamp with folded loop handle inside round housing. New three-quarter viewpoint 25 degrees to left and slightly lower, same folded mechanism, no invented parts. Match exact original body geometry, model, colors, materials, visible branding, buttons, hinge count and included accessories. Do not invent hidden hardware. Preserve all printed labels accurately. Clean soft studio key light with realistic material reflections. Centered complete object, 15% clear margins, square catalog composition, no crop, no props, no added text/watermark. Transparent background with real alpha; no baked white rectangle or floor. Commercial catalog illustration preserving product identity."
+    },
+    {
+      "original": "/products/product-09.jpeg",
+      "edited": "/products/studio-v2/product-09.png",
+      "sourceSha256": "0b8e7d5b2d11c92ddb17dad85e346cf89b1f05d43aaa1614ed964f1b3531bbe8",
+      "editedSha256": "b8ae1fd85eb15b378a563c655fdebe47a6ec41903cdbc0843b8d1482bc56c31f",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a NEW studio catalog photograph from a DIFFERENT CAMERA ANGLE, not background removal or mirrored old image. КАРИНА polished chrome low round pocket stamp with flat folding tab on top, separate yellow-lined round cap. Cap on right and stamp left, new lower front-right three-quarter viewpoint, retain flat folded tab. Preserve exact product identity, materials, geometry, visible labels and accessories unless specifically requested otherwise. No design changes, extra hardware, props, invented branding or added captions. Soft directional studio lighting and convincing reflections. Entire product comfortably centered with 15% margin on square canvas, no clipping. Real transparent alpha background, no white rectangle/floor. This is a product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-10.webp",
+      "edited": "/products/studio-v2/product-10.png",
+      "sourceSha256": "902dee46da434bc5feee2d7f3297551c5c7aba41c88ae27663f2e126f7db112e",
+      "editedSha256": "def9b674553f3fc1154b8695ea6ea09bd2e28b8c548ddae4695b3ae4e64a5a90",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. САБИНА polished silver round manual stamp with translucent amber turned handle and yellow-lined separate cap. Stamp on right, cap front-left, new viewpoint 25 degrees around objects, same amber grain and shape. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-11.webp",
+      "edited": "/products/studio-v2/product-11.png",
+      "sourceSha256": "7d9e1cffe44b431f02503133f09ebb27fc15407439e2c08de0af423b9935d5be",
+      "editedSha256": "d7174020da8d060b497e5b994c43f5236bcd93e458772a3867e6b92f8481b98a",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. РАДИЙ round polished silver stamp with golden spherical knob on short golden neck, yellow-lined silver cap. Stamp right, cap front-left; new lower three-quarter viewpoint, same knob and proportions. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-12.png",
+      "edited": "/products/studio-v2/product-12.png",
+      "sourceSha256": "5e97765838c31fde67f12fe45ebfd4013d2ae691d45151955afa96d6f81a4d62",
+      "editedSha256": "670835cf6df60bc14502a1913d4f874e5ef03e290d8b222190725e569a893f62",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. КОМПАКТ silver round folding pocket stamp with upright semicircular loop handle, separate black textured round cover with hanging tab. Cover right, silver stamp left, new higher three-quarter viewpoint. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-13.webp",
+      "edited": "/products/studio-v2/product-13.png",
+      "sourceSha256": "48ccbdb65394dd4ee917348110b002bab3002c1605bc7cbe2be7df4e837e02ff",
+      "editedSha256": "13c85d8d3503cbf9cc34a2c0dd3936fe66a9b63f346de803b36aa379621c0033",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. ДИСКО champagne-silver round folding stamp with upright narrow loop handle, separate matching round lid. Lid front-left, stamp back-right, new lower front-right viewpoint, exact same mechanism. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-14.jpg",
+      "edited": "/products/studio-v2/product-14.png",
+      "sourceSha256": "d6f6afad8b0e5b9d347f8a6b99fddb473d3bd2bd6b292afd4de60328c22aae87",
+      "editedSha256": "f437a2061c34614e7798f066c6b89479354590c085c25e19b8582ee2d75195c7",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. МАГНЕТИК round black horizontally grooved stamp base with gold metal top and upright flat folding grip with hole. New camera from opposite front quarter, slightly lower; same gold/black materials. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-15.jpeg",
+      "edited": "/products/studio-v2/product-15.png",
+      "sourceSha256": "dc804c94815d265c6d80d7ccc017e80e49860985789ab0bbccd8afdc65ea8339",
+      "editedSha256": "4c4303e9fca34dab00e9c4af242e9d92ef8e304106c9e8b247e8e47e0d536be3",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. ФАКСИМИЛЕ orange COLOP printer C40 rectangular automatic stamp, clear lower body, black crossbar, transparent top strip. New three-quarter viewpoint with right side visible, slightly above. Remove old floating purple signature completely; show stamp alone, no imprint. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-16.jpg",
+      "edited": "/products/studio-v2/product-16.png",
+      "sourceSha256": "64bbc5b3c5e5e429399063cdca55801ebb5fb31b7eea85c1c9e60efb26b5bd87",
+      "editedSha256": "6274835a803df8f9f9da98c599eee8285da7966188bbb21c034435b7101672a6",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. АВТОМАТ orange COLOP printer C40 rectangular automatic stamp, clear lower body, black crossbar, transparent top strip. New left-front three-quarter viewpoint, slightly lower. No signature/imprint. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-17.webp",
+      "edited": "/products/studio-v2/product-17.png",
+      "sourceSha256": "5c69999cd3f823fed0c0601b7e4ca95bdf11a0c5aff96aa00d97cd52c9ac4111",
+      "editedSha256": "14985e2ec056ba19a7da7f245cd5c57fcaa82df5611454718c607afa66d935bc",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. РУЧНОЙ glossy black rectangular manual stamp with rounded bulb handle, thin golden neck trim and gold COLOP on top. New low front-right angle, long base diagonally toward right, preserve shape. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-18.webp",
+      "edited": "/products/studio-v2/product-18.png",
+      "sourceSha256": "a1ebd6882b6ff0cba454881ddbd062edde94db6482d89eb8d8b34362f3311176",
+      "editedSha256": "e3fdfafdba68083c65eda41cc6ab758d3f2968dd650e6884129d2db19c0d2f18",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. COLOP 801 25 ml ink bottle: tall blue ribbed cap, translucent dark ink body, original blue-white label. New three-quarter viewpoint turning bottle 20 degrees left, front label readable. Preserve exact original label text Штемпельная краска 801, 25 ml, COLOP, Сделано в Германии and illustration. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-19.jpg",
+      "edited": "/products/studio-v2/product-19.png",
+      "sourceSha256": "3ef4002294fa22549404b16474463f9f70e8a8daab711e9bc59c3ed5caae7a5e",
+      "editedSha256": "0bd2fc4a2780f4e8d248cccd82f80ecbbff73ce608c15071ae16f1569ddc27d7",
+      "prompt": "Use case: product-mockup. Input 1 is the exact product identity reference. Create a NEW studio photograph from a DIFFERENT CAMERA ANGLE, not a mirrored image or background cutout. COLOP MICRO rectangular blue stamp-pad tray with dark purple felt and black hinged lid partly open. New front-right camera view at lower elevation; same long proportions, hinge, blue frame, black lid, purple felt. No separate detached lid. Preserve exact model identity, body geometry, materials, colors, labels, buttons and included accessories. No invention of hidden hardware. No other objects or added text. Soft directional studio lighting, realistic reflections. Complete centered object with 15% clear margins on square canvas. Real transparent alpha background, no floor/white rectangle. Product-identity-preserving commercial illustration."
+    },
+    {
+      "original": "/products/product-06.png",
+      "edited": "/products/studio-v2/product-03.png",
+      "sourceSha256": "8addbdac0b4c994a2ef4a9af9cffcbe193cbe7e86c65c9ba4630f1b577e20089",
+      "editedSha256": "8b3c4409aaa73e50dda491003caa1c52cb6feffcd1330c751ed522c353eedc60",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a genuinely new studio product photograph of this SAME model from a DIFFERENT CAMERA ANGLE, not a cutout of the old photo or mirrored pixels. TABLET black round manual stamp with short turned handle, gold emblem on flat top and detached round black cap. Stand stamp upright with cap front-right; photograph from a new lower three-quarter viewpoint. Match exact original body geometry, model, colors, materials, visible branding, buttons, hinge count and included accessories. Do not invent hidden hardware. Preserve all printed labels accurately. Clean soft studio key light with realistic material reflections. Centered complete object, 15% clear margins, square catalog composition, no crop, no props, no added text/watermark. Transparent background with real alpha; no baked white rectangle or floor. Commercial catalog illustration preserving product identity.",
+      "reuses": "product-03.png"
+    },
+    {
+      "original": "/products/product-07.png",
+      "edited": "/products/studio-v2/product-02.png",
+      "sourceSha256": "ea0456a54f8ef44d274590d42137925ecd1d1979cb3849f8c576a25a6891b7c0",
+      "editedSha256": "b422b6c9c91a8af525281090410affb9f81bb9910e85b17df6091bce6f847e0d",
+      "prompt": "Use case: product-mockup. Input image 1 is the exact product identity reference. Create a genuinely new studio product photograph of this SAME model from a DIFFERENT CAMERA ANGLE, not a cutout of the old photo or mirrored pixels. COLOP MOUSE R40 compact closed orange oval pocket stamp with black underside and oval black side button. Photograph from a new lower front three-quarter angle, nose pointing diagonally left, with visible side button and unchanged smooth curved body. Match exact original body geometry, model, colors, materials, visible branding, buttons, hinge count and included accessories. Do not invent hidden hardware. Preserve all printed labels accurately. Clean soft studio key light with realistic material reflections. Centered complete object, 15% clear margins, square catalog composition, no crop, no props, no added text/watermark. Transparent background with real alpha; no baked white rectangle or floor. Commercial catalog illustration preserving product identity.",
+      "reuses": "product-02.png"
+    }
+  ]
+}

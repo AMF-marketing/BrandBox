@@ -1,0 +1,160 @@
+{
+  "method": "OpenAI built-in image_gen background extraction",
+  "transparent_background": true,
+  "originals_preserved": true,
+  "unique_cutouts": 17,
+  "records": [
+    {
+      "original": "/products/product-01.png",
+      "edited": "/products/cutouts/product-01.png",
+      "sourceSha256": "4978f102218e7dde446c9e27d234e6f706338ab17c2bbbd17ead4317c952c426",
+      "editedSha256": "7be0778b809bef1c39dc8c44c63f8de06520d838dab89f436e8ee2ba367e2354",
+      "prompt": "background-extraction; preserve original orange COLOP printer R40 and cap, geometry, lettering, colors; transparent alpha",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-02.png",
+      "edited": "/products/cutouts/product-02.png",
+      "sourceSha256": "ea0456a54f8ef44d274590d42137925ecd1d1979cb3849f8c576a25a6891b7c0",
+      "editedSha256": "9f8e190864dc4a5860bd91e0a8ca54b00a68e4f0aa2c0f283af6b6a74eadc650",
+      "prompt": "Use case: background-extraction. Edit ONLY the background of this real product photograph into actual alpha transparency. MOUSE pocket stamp: retain exact orange shell, black underside, side button and factory label COLOP Stamp Mouse R40. This is a precise product cutout, not a new product render. Keep original perspective, geometry, proportions, body colors, logos, all small lettering and materials exactly. Preserve EVERY separate accessory and the original arrangement. Remove the white backdrop and background shadows, including white visible THROUGH holes in the open stamp frame. Preserve white and silver product surfaces. Clean accurate anti-aliased silhouette, no colored halo or stray isolated pixels. No redesign, no recoloring, no additional text, no new objects, no cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-03.png",
+      "edited": "/products/cutouts/product-03.png",
+      "sourceSha256": "8addbdac0b4c994a2ef4a9af9cffcbe193cbe7e86c65c9ba4630f1b577e20089",
+      "editedSha256": "c65fedd74fb9b8fad1220f2fcad7d633f147e3b877aaf8a21d778c56be8ffdde",
+      "prompt": "Use case: background-extraction. Edit ONLY the background of this real product photograph into actual alpha transparency. TABLET manual stamp: retain BOTH black round stamp with handle and detached open cap, original gold emblem on handle, and all black plastic surfaces. This is a precise product cutout, not a new product render. Keep original perspective, geometry, proportions, body colors, logos, all small lettering and materials exactly. Preserve EVERY separate accessory and the original arrangement. Remove the white backdrop and background shadows, including white visible THROUGH holes in the open stamp frame. Preserve white and silver product surfaces. Clean accurate anti-aliased silhouette, no colored halo or stray isolated pixels. No redesign, no recoloring, no additional text, no new objects, no cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-04.png",
+      "edited": "/products/cutouts/product-04.png",
+      "sourceSha256": "aa586a187961c03e9622008a02d133e0fbbb07c348ea2e698c5ca549457c57de",
+      "editedSha256": "a1ce84acad07d3b705ff7573d172356ea1a3ffb84cb2b7385c35925d30608d8f",
+      "prompt": "Use case: background-extraction. Edit ONLY the background of this real product photograph into actual alpha transparency. IDEAL 46042 automatic stamp: retain BOTH the entire black/silver stamp with its open frame and the separate black protective cap on the right, including label IDEAL 46042 and red side button. This is a precise product cutout, not a new product render. Keep original perspective, geometry, proportions, body colors, logos, all small lettering and materials exactly. Preserve EVERY separate accessory and the original arrangement. Remove the white backdrop and background shadows, including white visible THROUGH holes in the open stamp frame. Preserve white and silver product surfaces. Clean accurate anti-aliased silhouette, no colored halo or stray isolated pixels. No redesign, no recoloring, no additional text, no new objects, no cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-05.png",
+      "edited": "/products/cutouts/product-05.png",
+      "sourceSha256": "16b7d22152f9ebe85e9ebf80662412ba026c5aca0d00b5f18a4cbadcb65a8ef9",
+      "editedSha256": "9a8ad848898a5e022cd5c5471b1d13730701274e6de7b2fb6dfdcb7104d10eaa",
+      "prompt": "Use case: background-extraction. Edit ONLY the background of this real product photograph into actual alpha transparency. Shiny Printer R-542 automatic stamp: retain BOTH complete black stamp with the open frame and separate translucent protective cap on the right. Keep original white Shiny Printer R-542 branding, red side button, and translucent cap material. This is a precise product cutout, not a new product render. Keep original perspective, geometry, proportions, body colors, logos, all small lettering and materials exactly. Preserve EVERY separate accessory and the original arrangement. Remove the white backdrop and background shadows, including white visible THROUGH holes in the open stamp frame. Preserve white and silver product surfaces. Clean accurate anti-aliased silhouette, no colored halo or stray isolated pixels. No redesign, no recoloring, no additional text, no new objects, no cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-06.png",
+      "edited": "/products/cutouts/product-03.png",
+      "sourceSha256": "8addbdac0b4c994a2ef4a9af9cffcbe193cbe7e86c65c9ba4630f1b577e20089",
+      "editedSha256": "c65fedd74fb9b8fad1220f2fcad7d633f147e3b877aaf8a21d778c56be8ffdde",
+      "prompt": "Use case: background-extraction. Edit ONLY the background of this real product photograph into actual alpha transparency. TABLET manual stamp: retain BOTH black round stamp with handle and detached open cap, original gold emblem on handle, and all black plastic surfaces. This is a precise product cutout, not a new product render. Keep original perspective, geometry, proportions, body colors, logos, all small lettering and materials exactly. Preserve EVERY separate accessory and the original arrangement. Remove the white backdrop and background shadows, including white visible THROUGH holes in the open stamp frame. Preserve white and silver product surfaces. Clean accurate anti-aliased silhouette, no colored halo or stray isolated pixels. No redesign, no recoloring, no additional text, no new objects, no cropping. Transparent PNG.",
+      "reuses": "product-03.png"
+    },
+    {
+      "original": "/products/product-07.png",
+      "edited": "/products/cutouts/product-02.png",
+      "sourceSha256": "ea0456a54f8ef44d274590d42137925ecd1d1979cb3849f8c576a25a6891b7c0",
+      "editedSha256": "9f8e190864dc4a5860bd91e0a8ca54b00a68e4f0aa2c0f283af6b6a74eadc650",
+      "prompt": "Use case: background-extraction. Edit ONLY the background of this real product photograph into actual alpha transparency. MOUSE pocket stamp: retain exact orange shell, black underside, side button and factory label COLOP Stamp Mouse R40. This is a precise product cutout, not a new product render. Keep original perspective, geometry, proportions, body colors, logos, all small lettering and materials exactly. Preserve EVERY separate accessory and the original arrangement. Remove the white backdrop and background shadows, including white visible THROUGH holes in the open stamp frame. Preserve white and silver product surfaces. Clean accurate anti-aliased silhouette, no colored halo or stray isolated pixels. No redesign, no recoloring, no additional text, no new objects, no cropping. Transparent PNG.",
+      "reuses": "product-02.png"
+    },
+    {
+      "original": "/products/product-08.png",
+      "edited": "/products/cutouts/product-08.png",
+      "sourceSha256": "e85bf56ee6ad1c6096e6e4e516093651bb24d239a424e7065979c5aad174c2a3",
+      "editedSha256": "bd17017da8b4c4c2359349fbdad6dc9586045e51270d1419c76897bfd5a38f29",
+      "prompt": "Use case: background-extraction. Create a precise transparent-alpha cutout from the supplied product photo. TECHNO: a compact polished silver/champagne metal round stamp with a folding grip. Preserve its exact open folding geometry, metallic highlights, logo engraving and original warm metal color. Remove ONLY the white backdrop and external background shadows. Do NOT regenerate or redesign the product. Keep the original camera angle, all contours, hinges, gaps, proportions, materials, labels/engravings and body colors exactly. Keep ALL accessories and original relative positions. Preserve white/silver reflective material rather than making it transparent. No added props or text, no new shadow, no crop. Clean anti-aliased edge, no halo or isolated pixels. Transparent PNG for product catalog.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-09.jpeg",
+      "edited": "/products/cutouts/product-09.png",
+      "sourceSha256": "0b8e7d5b2d11c92ddb17dad85e346cf89b1f05d43aaa1614ed964f1b3531bbe8",
+      "editedSha256": "185e52abbfb8b70c57719f29ba0c6d7b4499c127999276f7fe8f0be3440c1e29",
+      "prompt": "Use case: background-extraction. Create a precise transparent-alpha cutout from the supplied product photo. КАРИНА: round silver compact stamp with a detached lid tilted up to the left and yellow pad interior visible. Preserve BOTH complete metal objects and yellow interior, exact arrangement and reflection. Remove ONLY the white backdrop and external background shadows. Do NOT regenerate or redesign the product. Keep the original camera angle, all contours, hinges, gaps, proportions, materials, labels/engravings and body colors exactly. Keep ALL accessories and original relative positions. Preserve white/silver reflective material rather than making it transparent. No added props or text, no new shadow, no crop. Clean anti-aliased edge, no halo or isolated pixels. Transparent PNG for product catalog.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-10.webp",
+      "edited": "/products/cutouts/product-10.png",
+      "sourceSha256": "902dee46da434bc5feee2d7f3297551c5c7aba41c88ae27663f2e126f7db112e",
+      "editedSha256": "9bb028f8257f3337f6ea51521e05bc21a704eb8ea04d1d758a4418b7e49b5bb1",
+      "prompt": "Use case: background-extraction. Create a precise transparent-alpha cutout from the supplied product photo. САБИНА: manual stamp with amber wood-grain handle and round silver base, plus detached round open cap with yellow interior on the right. Preserve BOTH pieces, exact wood grain, handle contour, metal and yellow interior. Remove ONLY the white backdrop and external background shadows. Do NOT regenerate or redesign the product. Keep the original camera angle, all contours, hinges, gaps, proportions, materials, labels/engravings and body colors exactly. Keep ALL accessories and original relative positions. Preserve white/silver reflective material rather than making it transparent. No added props or text, no new shadow, no crop. Clean anti-aliased edge, no halo or isolated pixels. Transparent PNG for product catalog.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-11.webp",
+      "edited": "/products/cutouts/product-11.png",
+      "sourceSha256": "7d9e1cffe44b431f02503133f09ebb27fc15407439e2c08de0af423b9935d5be",
+      "editedSha256": "16ddb7fdb3a59b28d07c5e5dada95fdae8afc5db53240b5d54fdf8e0554e4ac6",
+      "prompt": "Use case: background-extraction. Create a precise transparent-alpha cutout from the supplied product photo. РАДИЙ: round silver stamp with a gold spherical handle, plus detached open circular lid showing yellow interior to the right. Preserve BOTH pieces, the exact metallic gold/silver colors and mirror reflections. Remove ONLY the white backdrop and external background shadows. Do NOT regenerate or redesign the product. Keep the original camera angle, all contours, hinges, gaps, proportions, materials, labels/engravings and body colors exactly. Keep ALL accessories and original relative positions. Preserve white/silver reflective material rather than making it transparent. No added props or text, no new shadow, no crop. Clean anti-aliased edge, no halo or isolated pixels. Transparent PNG for product catalog.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-12.png",
+      "edited": "/products/cutouts/product-12.png",
+      "sourceSha256": "5e97765838c31fde67f12fe45ebfd4013d2ae691d45151955afa96d6f81a4d62",
+      "editedSha256": "594a58ade894e31c60c27cd125f6e2472990fac311a5982430425e9f68193fea",
+      "prompt": "Use case: background-extraction. Edit target is the provided existing product photograph, not a product to recreate. КОМПАКТ: retain BOTH the black textured carrying case on the left and the complete polished round silver folding stamp on the right. Keep the same open mechanism, engravings and case details. Change ONLY white background to real alpha transparency. Preserve all objects, original contours and proportions, viewpoint, materials, true body colors, text/labels and tiny details. Do not redraw, redesign, improve or recolor the product. Preserve any real white printing or product highlights; remove white backdrop only. Cut away only background and external cast shadow, with a clean anti-aliased edge, no halos or isolated pixels. No new background, checkerboard, text, decorations, props or cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-13.webp",
+      "edited": "/products/cutouts/product-13.png",
+      "sourceSha256": "48ccbdb65394dd4ee917348110b002bab3002c1605bc7cbe2be7df4e837e02ff",
+      "editedSha256": "2036d0b71818aee637d8ab93df177ae735dd2055835d531649c224a8e1d656dd",
+      "prompt": "Use case: background-extraction. Edit target is the provided existing product photograph, not a product to recreate. ДИСКО: retain BOTH the open circular metallic stamp with its raised folding grip on the left and its detached oval-looking perspective lid on the right. Keep the exact warm silver/champagne tone, engraved emblem, hinges and arrangement. Change ONLY white background to real alpha transparency. Preserve all objects, original contours and proportions, viewpoint, materials, true body colors, text/labels and tiny details. Do not redraw, redesign, improve or recolor the product. Preserve any real white printing or product highlights; remove white backdrop only. Cut away only background and external cast shadow, with a clean anti-aliased edge, no halos or isolated pixels. No new background, checkerboard, text, decorations, props or cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-14.jpg",
+      "edited": "/products/cutouts/product-14.png",
+      "sourceSha256": "d6f6afad8b0e5b9d347f8a6b99fddb473d3bd2bd6b292afd4de60328c22aae87",
+      "editedSha256": "21651d364cab7d5e782d9e2f1cd593c8e05106690eb60c2304575a101e9f820e",
+      "prompt": "Use case: background-extraction. Edit target is the provided existing product photograph, not a product to recreate. МАГНЕТИК: retain the exact compact cylindrical black-and-gold stamp with its upright gold folding grip and small circular inset. Keep all grooves, exact gold reflection and black rings. Change ONLY white background to real alpha transparency. Preserve all objects, original contours and proportions, viewpoint, materials, true body colors, text/labels and tiny details. Do not redraw, redesign, improve or recolor the product. Preserve any real white printing or product highlights; remove white backdrop only. Cut away only background and external cast shadow, with a clean anti-aliased edge, no halos or isolated pixels. No new background, checkerboard, text, decorations, props or cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-15.jpeg",
+      "edited": "/products/cutouts/product-15.png",
+      "sourceSha256": "dc804c94815d265c6d80d7ccc017e80e49860985789ab0bbccd8afdc65ea8339",
+      "editedSha256": "c58993c5b93910c90e2ab0e234a7191c0372aacb9605d98be6c5fde22b554e0f",
+      "prompt": "Use case: background-extraction. Edit target is the provided existing product photograph, not a product to recreate. ФАКСИМИЛЕ: retain the complete orange rectangular COLOP printer C 40 stamp, transparent lower cap with its black factory lettering, and the existing purple sample signature lower-right. The signature is part of the sample illustration, keep its existing strokes and placement without adding any writing. Change ONLY white background to real alpha transparency. Preserve all objects, original contours and proportions, viewpoint, materials, true body colors, text/labels and tiny details. Do not redraw, redesign, improve or recolor the product. Preserve any real white printing or product highlights; remove white backdrop only. Cut away only background and external cast shadow, with a clean anti-aliased edge, no halos or isolated pixels. No new background, checkerboard, text, decorations, props or cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-17.webp",
+      "edited": "/products/cutouts/product-17.png",
+      "sourceSha256": "5c69999cd3f823fed0c0601b7e4ca95bdf11a0c5aff96aa00d97cd52c9ac4111",
+      "editedSha256": "c4cc6684b5a979a7fb94ec281ab533dd49dcebacb76cc48574e12c95ab364f77",
+      "prompt": "Use case: background-extraction. Edit target is the provided existing product photograph, not a product to recreate. РУЧНОЙ: retain the complete black manual rectangular stamp, rounded handle, its gold ring detail and existing COLOP lettering. Keep the same tilted side view. Change ONLY white background to real alpha transparency. Preserve all objects, original contours and proportions, viewpoint, materials, true body colors, text/labels and tiny details. Do not redraw, redesign, improve or recolor the product. Preserve any real white printing or product highlights; remove white backdrop only. Cut away only background and external cast shadow, with a clean anti-aliased edge, no halos or isolated pixels. No new background, checkerboard, text, decorations, props or cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-16.jpg",
+      "edited": "/products/cutouts/product-16.png",
+      "sourceSha256": "64bbc5b3c5e5e429399063cdca55801ebb5fb31b7eea85c1c9e60efb26b5bd87",
+      "editedSha256": "2b8c251afbbd0ac021b0f5d1744b03d865650204b4bf398ece0a864a75bcc2c4",
+      "prompt": "Use case: background-extraction. Edit target is the provided existing product photograph, not a product to recreate. АВТОМАТ: retain the complete orange rectangular COLOP printer C 40 stamp, its black middle mechanism, clear bottom cap and exact black COLOP printer C 40 lettering. No accessory may be added. Change ONLY white background to real alpha transparency. Preserve all objects, original contours and proportions, viewpoint, materials, true body colors, text/labels and tiny details. Do not redraw, redesign, improve or recolor the product. Preserve any real white printing or product highlights; remove white backdrop only. Cut away only background and external cast shadow, with a clean anti-aliased edge, no halos or isolated pixels. No new background, checkerboard, text, decorations, props or cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-19.jpg",
+      "edited": "/products/cutouts/product-19.png",
+      "sourceSha256": "3ef4002294fa22549404b16474463f9f70e8a8daab711e9bc59c3ed5caae7a5e",
+      "editedSha256": "34a10bf8baeae6b94208e3d061a4c2ace3bf6fe4afaa729e9aa025c4f7674ecf",
+      "prompt": "Use case: background-extraction. Edit target is the provided existing product photograph, not a product to recreate. ПОДУШКА: retain the exact open blue rectangular ink-pad tray with purple felt surface and detached/raised black lid with white COLOP logo. Keep BOTH connected-looking pieces in the exact original arrangement and perspective. Change ONLY white background to real alpha transparency. Preserve all objects, original contours and proportions, viewpoint, materials, true body colors, text/labels and tiny details. Do not redraw, redesign, improve or recolor the product. Preserve any real white printing or product highlights; remove white backdrop only. Cut away only background and external cast shadow, with a clean anti-aliased edge, no halos or isolated pixels. No new background, checkerboard, text, decorations, props or cropping. Transparent PNG.",
+      "reuses": null
+    },
+    {
+      "original": "/products/product-18.webp",
+      "edited": "/products/cutouts/product-18.png",
+      "sourceSha256": "a1ebd6882b6ff0cba454881ddbd062edde94db6482d89eb8d8b34362f3311176",
+      "editedSha256": "18abeada89fc6be09e5d82be59179fd79769aaf691516dbd48e09c25c2846a64",
+      "prompt": "Use case: background-extraction. Edit target is the provided existing product photograph, not a product to recreate. КРАСКА 25МЛ: retain the exact ink bottle with blue tall cap, translucent bottle, dark blue liquid and original printed label including the hand/ink-pad photo, Russian text Штемпельная краска 801, red 25 ml and red COLOP mark. Do not replace packaging or change any label detail. Change ONLY white background to real alpha transparency. Preserve all objects, original contours and proportions, viewpoint, materials, true body colors, text/labels and tiny details. Do not redraw, redesign, improve or recolor the product. Preserve any real white printing or product highlights; remove white backdrop only. Cut away only background and external cast shadow, with a clean anti-aliased edge, no halos or isolated pixels. No new background, checkerboard, text, decorations, props or cropping. Transparent PNG.",
+      "reuses": null
+    }
+  ]
+}

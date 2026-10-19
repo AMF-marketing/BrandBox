@@ -1,0 +1,1 @@
+import Link from 'next/link';export default function NotFound(){return <section className="section page-section"><h1>Такой страницы нет.</h1><p className="intro">Вернитесь к каталогу и найдите подходящий формат.</p><Link className="button" href="/catalog/">Открыть каталог ↗</Link></section>}

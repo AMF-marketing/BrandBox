@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-19",
+  "adjustmentRUB": 100,
+  "items": [
+    {
+      "slug": "mouse",
+      "name": "MOUSE",
+      "before": 2500,
+      "after": 2600,
+      "priceFrom": false
+    },
+    {
+      "slug": "colop",
+      "name": "COLOP",
+      "before": 2400,
+      "after": 2500,
+      "priceFrom": false
+    },
+    {
+      "slug": "tablet",
+      "name": "TABLET",
+      "before": 1500,
+      "after": 1600,
+      "priceFrom": false
+    },
+    {
+      "slug": "avtomat",
+      "name": "АВТОМАТ",
+      "before": 1100,
+      "after": 1200,
+      "priceFrom": true
+    },
+    {
+      "slug": "karina",
+      "name": "КАРИНА",
+      "before": 2850,
+      "after": 2950,
+      "priceFrom": false
+    },
+    {
+      "slug": "shiny",
+      "name": "SHINY",
+      "before": 2700,
+      "after": 2800,
+      "priceFrom": false
+    },
+    {
+      "slug": "faksimile",
+      "name": "ФАКСИМИЛЕ",
+      "before": 1300,
+      "after": 1400,
+      "priceFrom": true
+    },
+    {
+      "slug": "techno",
+      "name": "TECHNO",
+      "before": 3500,
+      "after": 3600,
+      "priceFrom": false
+    },
+    {
+      "slug": "podushka-m2",
+      "name": "ПОДУШКА М2 100х70мм",
+      "before": 900,
+      "after": 1000,
+      "priceFrom": false
+    },
+    {
+      "slug": "ideal",
+      "name": "IDEAL",
+      "before": 2300,
+      "after": 2400,
+      "priceFrom": false
+    },
+    {
+      "slug": "sabina",
+      "name": "САБИНА",
+      "before": 2950,
+      "after": 3050,
+      "priceFrom": false
+    },
+    {
+      "slug": "kraska-25ml",
+      "name": "КРАСКА 25МЛ",
+      "before": 320,
+      "after": 420,
+      "priceFrom": false
+    },
+    {
+      "slug": "magnetik",
+      "name": "МАГНЕТИК",
+      "before": 4700,
+      "after": 4800,
+      "priceFrom": false
+    },
+    {
+      "slug": "ruchnoy",
+      "name": "РУЧНОЙ",
+      "before": 500,
+      "after": 600,
+      "priceFrom": true
+    },
+    {
+      "slug": "disko",
+      "name": "ДИСКО",
+      "before": 2900,
+      "after": 3000,
+      "priceFrom": false
+    },
+    {
+      "slug": "podushka-m1",
+      "name": "ПОДУШКА М1 90х50мм",
+      "before": 500,
+      "after": 600,
+      "priceFrom": false
+    },
+    {
+      "slug": "kompakt",
+      "name": "КОМПАКТ",
+      "before": 4000,
+      "after": 4100,
+      "priceFrom": false
+    },
+    {
+      "slug": "radiy",
+      "name": "РАДИЙ",
+      "before": 3050,
+      "after": 3150,
+      "priceFrom": false
+    },
+    {
+      "slug": "podushka-m3",
+      "name": "ПОДУШКА М3 160х90мм",
+      "before": 1200,
+      "after": 1300,
+      "priceFrom": false
+    }
+  ]
+}

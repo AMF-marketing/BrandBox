@@ -1,0 +1,487 @@
+{
+  "source": "https://gradient-nsk.ru/",
+  "checkedAt": "2026-10-15",
+  "authorization": "Customer explicitly requested same model names, prices and photos.",
+  "uniqueProducts": 19,
+  "sourceCards": 22,
+  "duplicatePolicy": "Popular-block repeats merged. Alternate TABLET/MOUSE photos preserved.",
+  "items": [
+    {
+      "name": "IDEAL",
+      "price": 2300,
+      "priceFrom": false,
+      "images": [
+        "/products/product-04.png"
+      ],
+      "slug": "ideal",
+      "group": "Автоматические печати",
+      "description": "Автоматическая оснастка для работы с документами.",
+      "kind": "Автоматическая",
+      "spec": "Встроенная подушка"
+    },
+    {
+      "name": "COLOP",
+      "price": 2400,
+      "priceFrom": false,
+      "images": [
+        "/products/product-01.png"
+      ],
+      "slug": "colop",
+      "group": "Автоматические печати",
+      "description": "Стационарная автоматическая оснастка.",
+      "kind": "Автоматическая",
+      "spec": "Встроенная подушка"
+    },
+    {
+      "name": "SHINY",
+      "price": 2700,
+      "priceFrom": false,
+      "images": [
+        "/products/product-05.png"
+      ],
+      "slug": "shiny",
+      "group": "Автоматические печати",
+      "description": "Автоматическая оснастка для рабочего стола.",
+      "kind": "Автоматическая",
+      "spec": "Встроенная подушка"
+    },
+    {
+      "name": "TABLET",
+      "price": 1500,
+      "priceFrom": false,
+      "images": [
+        "/products/product-06.png",
+        "/products/product-03.png"
+      ],
+      "slug": "tablet",
+      "group": "Карманные и ручные печати",
+      "description": "Ручная печать. Штемпельная подушка приобретается отдельно.",
+      "kind": "Ручная",
+      "spec": "Отдельная подушка"
+    },
+    {
+      "name": "MOUSE",
+      "price": 2500,
+      "priceFrom": false,
+      "images": [
+        "/products/product-07.png",
+        "/products/product-02.png"
+      ],
+      "slug": "mouse",
+      "group": "Карманные и ручные печати",
+      "description": "Карманная оснастка со встроенной подушкой.",
+      "kind": "Карманная",
+      "spec": "Встроенная подушка"
+    },
+    {
+      "name": "TECHNO",
+      "price": 3500,
+      "priceFrom": false,
+      "images": [
+        "/products/product-08.png"
+      ],
+      "slug": "techno",
+      "group": "Карманные и ручные печати",
+      "description": "Оснастка со встроенной штемпельной подушкой.",
+      "kind": "Карманная",
+      "spec": "Встроенная подушка"
+    },
+    {
+      "name": "КАРИНА",
+      "price": 2850,
+      "priceFrom": false,
+      "images": [
+        "/products/product-09.jpeg"
+      ],
+      "slug": "karina",
+      "group": "Карманные и ручные печати",
+      "description": "Компактный металлический корпус для переноски.",
+      "kind": "Карманная",
+      "spec": "Металлический корпус"
+    },
+    {
+      "name": "САБИНА",
+      "price": 2950,
+      "priceFrom": false,
+      "images": [
+        "/products/product-10.webp"
+      ],
+      "slug": "sabina",
+      "group": "Карманные и ручные печати",
+      "description": "Металлический корпус с деревянной ручкой.",
+      "kind": "Ручная",
+      "spec": "Деревянная ручка"
+    },
+    {
+      "name": "РАДИЙ",
+      "price": 3050,
+      "priceFrom": false,
+      "images": [
+        "/products/product-11.webp"
+      ],
+      "slug": "radiy",
+      "group": "Карманные и ручные печати",
+      "description": "Оснастка в металлическом корпусе.",
+      "kind": "Ручная",
+      "spec": "Металлический корпус"
+    },
+    {
+      "name": "КОМПАКТ",
+      "price": 4000,
+      "priceFrom": false,
+      "images": [
+        "/products/product-12.png"
+      ],
+      "slug": "kompakt",
+      "group": "Карманные и ручные печати",
+      "description": "Металлический корпус и кожаный чехол.",
+      "kind": "Карманная",
+      "spec": "Чехол"
+    },
+    {
+      "name": "ДИСКО",
+      "price": 2900,
+      "priceFrom": false,
+      "images": [
+        "/products/product-13.webp"
+      ],
+      "slug": "disko",
+      "group": "Карманные и ручные печати",
+      "description": "Оснастка для печати в металлическом корпусе.",
+      "kind": "Карманная",
+      "spec": "Металлический корпус"
+    },
+    {
+      "name": "МАГНЕТИК",
+      "price": 4700,
+      "priceFrom": false,
+      "images": [
+        "/products/product-14.jpg"
+      ],
+      "slug": "magnetik",
+      "group": "Карманные и ручные печати",
+      "description": "Печать в металлическом корпусе.",
+      "kind": "Карманная",
+      "spec": "Металлический корпус"
+    },
+    {
+      "name": "ФАКСИМИЛЕ",
+      "price": 1300,
+      "priceFrom": true,
+      "images": [
+        "/products/product-15.jpeg"
+      ],
+      "slug": "faksimile",
+      "group": "Штампы",
+      "description": "Оттиск подписи на автоматической оснастке.",
+      "kind": "Автоматическая",
+      "spec": "По образцу подписи"
+    },
+    {
+      "name": "АВТОМАТ",
+      "price": 1100,
+      "priceFrom": true,
+      "images": [
+        "/products/product-16.jpg"
+      ],
+      "slug": "avtomat",
+      "group": "Штампы",
+      "description": "Штамп со встроенной штемпельной подушкой.",
+      "kind": "Автоматическая",
+      "spec": "Встроенная подушка"
+    },
+    {
+      "name": "РУЧНОЙ",
+      "price": 500,
+      "priceFrom": true,
+      "images": [
+        "/products/product-17.webp"
+      ],
+      "slug": "ruchnoy",
+      "group": "Штампы",
+      "description": "Штамп для использования с отдельной подушкой.",
+      "kind": "Ручная",
+      "spec": "Отдельная подушка"
+    },
+    {
+      "name": "КРАСКА 25МЛ",
+      "price": 320,
+      "priceFrom": false,
+      "images": [
+        "/products/product-18.webp"
+      ],
+      "slug": "kraska-25ml",
+      "group": "Расходники",
+      "description": "Штемпельная краска: синяя, фиолетовая, красная, зелёная или чёрная.",
+      "kind": "Расходный материал",
+      "spec": "25 мл"
+    },
+    {
+      "name": "ПОДУШКА М1 90х50мм",
+      "price": 500,
+      "priceFrom": false,
+      "images": [
+        "/products/product-19.jpg"
+      ],
+      "slug": "podushka-m1",
+      "group": "Расходники",
+      "description": "Штемпельная подушка для ручных печатей и штампов.",
+      "kind": "Штемпельная подушка",
+      "spec": "90 × 50 мм"
+    },
+    {
+      "name": "ПОДУШКА М2 100х70мм",
+      "price": 900,
+      "priceFrom": false,
+      "images": [
+        "/products/product-19.jpg"
+      ],
+      "slug": "podushka-m2",
+      "group": "Расходники",
+      "description": "Штемпельная подушка для ручных печатей и штампов.",
+      "kind": "Штемпельная подушка",
+      "spec": "100 × 70 мм"
+    },
+    {
+      "name": "ПОДУШКА М3 160х90мм",
+      "price": 1200,
+      "priceFrom": false,
+      "images": [
+        "/products/product-19.jpg"
+      ],
+      "slug": "podushka-m3",
+      "group": "Расходники",
+      "description": "Штемпельная подушка для ручных печатей и штампов.",
+      "kind": "Штемпельная подушка",
+      "spec": "160 × 90 мм"
+    }
+  ],
+  "photos": [
+    {
+      "source": "https://static.tildacdn.com/tild3163-3064-4538-b462-613831623265/photo.png",
+      "file": "/products/product-01.png",
+      "bytes": 146271,
+      "sha256": "4978f102218e7dde446c9e27d234e6f706338ab17c2bbbd17ead4317c952c426"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6265-3438-4236-a139-633934323362/photo.png",
+      "file": "/products/product-02.png",
+      "bytes": 94786,
+      "sha256": "ea0456a54f8ef44d274590d42137925ecd1d1979cb3849f8c576a25a6891b7c0"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild3233-3537-4437-a330-613935356531/photo.png",
+      "file": "/products/product-03.png",
+      "bytes": 165168,
+      "sha256": "8addbdac0b4c994a2ef4a9af9cffcbe193cbe7e86c65c9ba4630f1b577e20089"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6338-6634-4336-a332-623232396465/photo.png",
+      "file": "/products/product-04.png",
+      "bytes": 154975,
+      "sha256": "aa586a187961c03e9622008a02d133e0fbbb07c348ea2e698c5ca549457c57de"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6163-6462-4735-a436-383734376466/photo.png",
+      "file": "/products/product-05.png",
+      "bytes": 177244,
+      "sha256": "16b7d22152f9ebe85e9ebf80662412ba026c5aca0d00b5f18a4cbadcb65a8ef9"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6365-6662-4731-b431-383138646264/photo.png",
+      "file": "/products/product-06.png",
+      "bytes": 165168,
+      "sha256": "8addbdac0b4c994a2ef4a9af9cffcbe193cbe7e86c65c9ba4630f1b577e20089"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6138-6631-4237-b066-323533373965/photo.png",
+      "file": "/products/product-07.png",
+      "bytes": 94786,
+      "sha256": "ea0456a54f8ef44d274590d42137925ecd1d1979cb3849f8c576a25a6891b7c0"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild3064-3362-4033-b161-643162643232/photo.png",
+      "file": "/products/product-08.png",
+      "bytes": 108468,
+      "sha256": "e85bf56ee6ad1c6096e6e4e516093651bb24d239a424e7065979c5aad174c2a3"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6337-6562-4631-b732-633931303864/_.jpeg",
+      "file": "/products/product-09.jpeg",
+      "bytes": 33219,
+      "sha256": "0b8e7d5b2d11c92ddb17dad85e346cf89b1f05d43aaa1614ed964f1b3531bbe8"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6633-3233-4130-b465-663561323338/2.webp",
+      "file": "/products/product-10.webp",
+      "bytes": 11342,
+      "sha256": "902dee46da434bc5feee2d7f3297551c5c7aba41c88ae27663f2e126f7db112e"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6361-6266-4461-a339-353439643233/4.webp",
+      "file": "/products/product-11.webp",
+      "bytes": 13288,
+      "sha256": "7d9e1cffe44b431f02503133f09ebb27fc15407439e2c08de0af423b9935d5be"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild3863-3336-4663-a565-326266303438/__2025-11-09__231947.png",
+      "file": "/products/product-12.png",
+      "bytes": 158134,
+      "sha256": "5e97765838c31fde67f12fe45ebfd4013d2ae691d45151955afa96d6f81a4d62"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6239-6538-4866-b863-633038343035/photo.webp",
+      "file": "/products/product-13.webp",
+      "bytes": 10356,
+      "sha256": "48ccbdb65394dd4ee917348110b002bab3002c1605bc7cbe2be7df4e837e02ff"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6232-3339-4636-a131-323932336638/photo.jpg",
+      "file": "/products/product-14.jpg",
+      "bytes": 25235,
+      "sha256": "d6f6afad8b0e5b9d347f8a6b99fddb473d3bd2bd6b292afd4de60328c22aae87"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6665-6135-4764-b233-663035353937/WhatsApp_Image_2025-.jpeg",
+      "file": "/products/product-15.jpeg",
+      "bytes": 26896,
+      "sha256": "dc804c94815d265c6d80d7ccc017e80e49860985789ab0bbccd8afdc65ea8339"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild3761-3864-4332-a430-656464343763/image_56_1.jpg",
+      "file": "/products/product-16.jpg",
+      "bytes": 25359,
+      "sha256": "64bbc5b3c5e5e429399063cdca55801ebb5fb31b7eea85c1c9e60efb26b5bd87"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild6261-6236-4437-b233-636137663564/2.webp",
+      "file": "/products/product-17.webp",
+      "bytes": 3560,
+      "sha256": "5c69999cd3f823fed0c0601b7e4ca95bdf11a0c5aff96aa00d97cd52c9ac4111"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild3839-6565-4539-b330-366461366239/_.webp",
+      "file": "/products/product-18.webp",
+      "bytes": 17278,
+      "sha256": "a1ebd6882b6ff0cba454881ddbd062edde94db6482d89eb8d8b34362f3311176"
+    },
+    {
+      "source": "https://static.tildacdn.com/tild3833-3961-4536-b366-396566663730/640970.jpg",
+      "file": "/products/product-19.jpg",
+      "bytes": 29169,
+      "sha256": "3ef4002294fa22549404b16474463f9f70e8a8daab711e9bc59c3ed5caae7a5e"
+    }
+  ],
+  "rawCards": [
+    {
+      "title": "COLOP - 2400 ₽",
+      "image": "https://static.tildacdn.com/tild3163-3064-4538-b462-613831623265/photo.png",
+      "description": "Автоматическая европейская стационарная оснастка"
+    },
+    {
+      "title": "MOUSE - 2500 ₽",
+      "image": "https://static.tildacdn.com/tild6265-3438-4236-a139-633934323362/photo.png",
+      "description": "Австрийская карманная оснастка со встроенной подушкой"
+    },
+    {
+      "title": "TABLET - 1500 ₽",
+      "image": "https://static.tildacdn.com/tild3233-3537-4437-a330-613935356531/photo.png",
+      "description": "Простая ручная печать, необходимо докупить подушку"
+    },
+    {
+      "title": "IDEAL - 2300 ₽",
+      "image": "https://static.tildacdn.com/tild6338-6634-4336-a332-623232396465/photo.png",
+      "description": "Автоматическая бюджетная стационарная оснастка"
+    },
+    {
+      "title": "COLOP - 2400 ₽",
+      "image": "https://static.tildacdn.com/tild3163-3064-4538-b462-613831623265/photo.png",
+      "description": "Автоматическая европейская стационарная оснастка"
+    },
+    {
+      "title": "SHINY - 2700 ₽",
+      "image": "https://static.tildacdn.com/tild6163-6462-4735-a436-383734376466/photo.png",
+      "description": "Автоматическая тайваньская стационарная оснастка"
+    },
+    {
+      "title": "TABLET - 1500 ₽",
+      "image": "https://static.tildacdn.com/tild6365-6662-4731-b431-383138646264/photo.png",
+      "description": "Простая ручная печать, необходимо докупить подушку"
+    },
+    {
+      "title": "MOUSE - 2500 ₽",
+      "image": "https://static.tildacdn.com/tild6138-6631-4237-b066-323533373965/photo.png",
+      "description": "Австрийская карманная оснастка со встроенной подушкой"
+    },
+    {
+      "title": "TECHNO - 3500 ₽",
+      "image": "https://static.tildacdn.com/tild3064-3362-4033-b161-643162643232/photo.png",
+      "description": "Премиальная оснастка со встроенной подушкой"
+    },
+    {
+      "title": "КАРИНА - 2850 ₽",
+      "image": "https://static.tildacdn.com/tild6337-6562-4631-b732-633931303864/_.jpeg",
+      "description": "Компактная карманная оснастка в металлическом корпусе"
+    },
+    {
+      "title": "САБИНА - 2950 ₽",
+      "image": "https://static.tildacdn.com/tild6633-3233-4130-b465-663561323338/2.webp",
+      "description": "Оснастка с деревянной ручкой в металлическом корпусе"
+    },
+    {
+      "title": "РАДИЙ - 3050 ₽",
+      "image": "https://static.tildacdn.com/tild6361-6266-4461-a339-353439643233/4.webp",
+      "description": "Оснастка в металлическом корпусе"
+    },
+    {
+      "title": "КОМПАКТ - 4000 ₽",
+      "image": "https://static.tildacdn.com/tild3863-3336-4663-a565-326266303438/__2025-11-09__231947.png",
+      "description": "Оснастка в металлическом корпусе с кожаным чехлом"
+    },
+    {
+      "title": "ДИСКО - 2900 ₽",
+      "image": "https://static.tildacdn.com/tild6239-6538-4866-b863-633038343035/photo.webp",
+      "description": "Премиальная оснастка в металлическом корпусе"
+    },
+    {
+      "title": "МАГНЕТИК - 4700 ₽",
+      "image": "https://static.tildacdn.com/tild6232-3339-4636-a131-323932336638/photo.jpg",
+      "description": "Премиальная оснастка в металлическом корпусе"
+    },
+    {
+      "title": "ФАКСИМИЛЕ - от 1300 ₽",
+      "image": "https://static.tildacdn.com/tild6665-6135-4764-b233-663035353937/WhatsApp_Image_2025-.jpeg",
+      "description": "Точная копия вашей подписи на автоматической оснастке для быстрого подписания документов"
+    },
+    {
+      "title": "АВТОМАТ - от 1100 ₽",
+      "image": "https://static.tildacdn.com/tild3761-3864-4332-a430-656464343763/image_56_1.jpg",
+      "description": "Автоматический штамп со встроенной подушкой для частого применения"
+    },
+    {
+      "title": "РУЧНОЙ - от 500 ₽",
+      "image": "https://static.tildacdn.com/tild6261-6236-4437-b233-636137663564/2.webp",
+      "description": "Простой штамп на ручной оснастке. Для использования необходима штемпельная подушка"
+    },
+    {
+      "title": "КРАСКА 25МЛ - 320 ₽",
+      "image": "https://static.tildacdn.com/tild3839-6565-4539-b330-366461366239/_.webp",
+      "description": "Синяя, фиолетовая, красная, зелёная, чёрная"
+    },
+    {
+      "title": "ПОДУШКА М1 90х50мм - 500 ₽",
+      "image": "https://static.tildacdn.com/tild3833-3961-4536-b366-396566663730/640970.jpg",
+      "description": "Штемпельная подушка"
+    },
+    {
+      "title": "ПОДУШКА М2 100х70мм - 900 ₽",
+      "image": "https://static.tildacdn.com/tild3833-3961-4536-b366-396566663730/640970.jpg",
+      "description": "Штемпельная подушка"
+    },
+    {
+      "title": "ПОДУШКА М3 160х90мм - 1200 ₽",
+      "image": "https://static.tildacdn.com/tild3833-3961-4536-b366-396566663730/640970.jpg",
+      "description": "Штемпельная подушка"
+    }
+  ]
+}
