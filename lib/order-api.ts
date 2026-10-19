@@ -1,0 +1,6 @@
+/** Integration boundary. Never invoke in demo mode. Server must validate, rate-limit,
+ * verify consent version, validate uploads, persist, then hand off to CRM.
+ * HTTP 2xx alone is insufficient: the server must return a real persisted ID. */
+export const liveOrders=process.env.NEXT_PUBLIC_ORDERS_ENABLED==='true'&&!!process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY&&!!process.env.NEXT_PUBLIC_CONSENT_VERSION;
+export interface OrderPayload {name:string;phone:string;product:string;contactMethod:string;comment:string;dataConsent:true;marketingConsent:boolean;consentVersion:string;turnstileToken:string;website:string;requestId:string}
+export async function sendOrder(endpoint:string,payload:OrderPayload,signal?:AbortSignal):Promise<{id:string}>{const response=await fetch(endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload),signal});const data:unknown=await response.json().catch(()=>null);if(!response.ok)throw new Error(data&&typeof data==='object'&&'error'in data&&typeof data.error==='string'?data.error:'Не удалось отправить заявку. Попробуйте позже.');if(!data||typeof data!=='object'||!('id'in data)||typeof data.id!=='string'||!data.id)throw new Error('Сервер не подтвердил сохранение заявки.');return {id:data.id}}

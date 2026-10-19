@@ -1,0 +1,5 @@
+const {spawn}=require('node:child_process'),http=require('node:http'),path=require('node:path');
+const child=spawn(process.execPath,['serve.cjs','out'],{cwd:path.resolve(__dirname,'..'),env:{...process.env,PORT:'3012'},stdio:['ignore','pipe','pipe']});
+const timer=setTimeout(()=>{child.kill();console.log('HTTP check unavailable: timeout');process.exitCode=1},8000);
+child.stderr.on('data',d=>console.log(d.toString()));
+let started=false;child.stdout.on('data',async()=>{if(started)return;started=true;try{for(const route of ['/','/catalog/','/catalog/pechati-ip/','/contacts/','/onest.ttf','/icon.svg','/robots.txt','/sitemap.xml','/missing-page/']){await new Promise((resolve,reject)=>{const req=http.get('http://127.0.0.1:3012'+route,res=>{const expected=route.includes('missing')?404:200;if(res.statusCode!==expected)reject(Error(route+': '+res.statusCode));res.resume();res.on('end',resolve)});req.setTimeout(2000,()=>{req.destroy();reject(Error('HTTP timeout'))});req.on('error',reject)})}console.log('HTTP routes: 9 passed')}catch(error){console.log('HTTP check: '+error.message);process.exitCode=1}finally{clearTimeout(timer);child.kill()}});

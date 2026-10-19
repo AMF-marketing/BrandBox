@@ -1,0 +1,9 @@
+const {spawn}=require('node:child_process'),http=require('node:http'),path=require('node:path'),fs=require('node:fs'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),source=JSON.parse(fs.readFileSync(path.join(root,'CATALOG-SOURCE.json'),'utf8'));
+const edits=JSON.parse(fs.readFileSync(path.join(root,'IMAGE-PROCESSING.json'),'utf8'));
+const child=spawn(process.execPath,['serve.cjs','out'],{cwd:root,env:{...process.env,PORT:'3012'},stdio:['ignore','pipe','pipe']});
+const timer=setTimeout(()=>{child.kill();console.error('HTTP timeout');process.exitCode=1},15000);
+child.stderr.on('data',d=>console.error(d.toString()));let started=false;
+const old=['pechati-ip','pechati-ooo','pechati-vrachey','shtampy','osnastki','individualnyy-maket'];
+const routes=['/','/catalog/','/contacts/','/onest.ttf','/logo.png','/robots.txt','/sitemap.xml','/missing-page/',...source.items.map(p=>'/catalog/'+p.slug+'/'),...old.map(s=>'/catalog/'+s+'/'),...source.photos.map(p=>p.file),...new Set(edits.records.map(p=>p.edited))];
+child.stdout.on('data',async()=>{if(started)return;started=true;try{for(const route of routes){await new Promise((resolve,reject)=>{const request=http.get('http://127.0.0.1:3012'+route,res=>{try{assert.equal(res.statusCode,route==='/missing-page/'?404:200,route);if(route.startsWith('/products/'))assert.ok(res.headers['content-type'].startsWith('image/'),route);res.resume();res.on('end',resolve)}catch(error){res.resume();reject(error)}});request.setTimeout(3000,()=>{request.destroy();reject(Error('Request timeout'))});request.on('error',reject)})}console.log(JSON.stringify({catalog_http_routes:routes.length,product_pages:source.items.length,original_photos:source.photos.length,status:'passed'}))}catch(error){console.error(error.message);process.exitCode=1}finally{clearTimeout(timer);child.kill()}});
