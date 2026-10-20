@@ -1,7 +1,7 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),crypto=require('node:crypto'),assert=require('node:assert/strict'),ts=require('typescript');
 const root=path.resolve(__dirname,'..');
 const compiled=ts.transpileModule(fs.readFileSync(path.join(root,'lib/catalog.ts'),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText;
-const box={exports:{},process,Intl};vm.runInNewContext(compiled,box);
+const box={exports:{},process,Intl,URL};vm.runInNewContext(compiled,box);
 const {products,catalogGroups,formatPrice,legacyCategories}=box.exports;
 const source=JSON.parse(fs.readFileSync(path.join(root,'CATALOG-SOURCE.json'),'utf8'));
 const pricing=JSON.parse(fs.readFileSync(path.join(root,'PRICE-UPDATE.json'),'utf8'));

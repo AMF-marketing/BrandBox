@@ -1,6 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),ts=require('typescript');
 const root=path.resolve(__dirname,'..');
-function read(file){const box={exports:{},process,Intl};vm.runInNewContext(ts.transpileModule(fs.readFileSync(path.join(root,file),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,box);return box.exports}
+function read(file){const box={exports:{},process,Intl,URL};vm.runInNewContext(ts.transpileModule(fs.readFileSync(path.join(root,file),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS}}).outputText,box);return box.exports}
 const {products,catalogGroups}=read('lib/catalog.ts'),{selectProducts}=read('lib/catalog-selection.ts');let checks=0;
 function check(value){assert.ok(value);checks++}
 check(selectProducts(products,'Все','','default').length===19);

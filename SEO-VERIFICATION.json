@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-10-20",
+  "build": "passed",
+  "typecheck": "passed",
+  "html_pages": 35,
+  "indexable_pages": 30,
+  "catalog_routes": 25,
+  "products": 19,
+  "semantic_queries": 102,
+  "metadata_canonicals_robots_sitemap_schema_links_assets": "passed",
+  "catalog_regression": "passed: names/prices/image hashes; 19 filter checks",
+  "form_regression": "passed: 14 checks",
+  "browser_visual_qa": "not performed for local SEO update",
+  "publication": "local update prepared; user must upload patch to GitHub, then verify Cloudflare build",
+  "errors": []
+}

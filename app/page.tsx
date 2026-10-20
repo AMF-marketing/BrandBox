@@ -1,15 +1,15 @@
 import {ContactContent} from '@/components/contacts';
-import {contacts} from '@/lib/contacts';
+import {pageMetadata,businessData} from '@/lib/seo';
 import Link from 'next/link';
 import {Catalog,OrderButton,ProductPhoto} from '@/components/site';
-import {faqs,origin,products} from '@/lib/catalog';
-export const metadata={alternates:{canonical:'/'}};
+import {faqs,products} from '@/lib/catalog';
+export const metadata=pageMetadata('Изготовление печатей и штампов в Новосибирске','Печати для ИП, ООО и врачей, штампы и факсимиле подписи в Новосибирске. Оснастки, краска и штемпельные подушки. Фотографии, цены и согласование макета.','/');
 export default function Home(){return <>
   <section className="hero section">
     <div className="hero-copy">
       <div className="eyebrow">НОВОСИБИРСК</div>
-      <h1>Печати<br/>и <span className="accent">штампы.</span></h1>
-      <p className="hero-description">Для ИП, организаций и специалистов.<br/>Выберите продукцию и укажите данные для макета.</p>
+      <h1>Печати<br/>и <span className="accent">штампы</span><span className="hero-location">в Новосибирске</span></h1>
+      <p className="hero-description">Изготовление печатей для ИП, ООО и врачей.<br/>Штампы и факсимиле по согласованному макету.</p>
       <div className="hero-actions"><Link className="button" href="#catalog">Выбрать продукцию ↗</Link><OrderButton className="button secondary">Обсудить заказ</OrderButton></div>
     </div>
     <div className="hero-visual"><ProductPhoto product={products.find(p=>p.slug==='colop')!} priority/></div>
@@ -18,7 +18,7 @@ export default function Home(){return <>
     <div className="section-heading"><h2>Каталог продукции</h2></div>
     <Catalog/>
   </section>
-  <section className="section landing-about" id="about"><div className="section-heading"><h2>Печати для ваших задач</h2></div><p>Изготавливаем печати, штампы и факсимиле для ИП, организаций и специалистов.<br/>Поможем подобрать оснастку и подготовить макет.</p></section>
+  <section className="section landing-about" id="about"><div className="section-heading"><h2>Печати для ваших задач</h2></div><p>Изготавливаем печати, штампы и факсимиле для ИП, организаций и специалистов.<br/>Поможем подобрать оснастку и подготовить макет.</p><nav className="service-links" aria-label="Печати по назначению"><Link href="/catalog/pechati-ip/">Печати для ИП</Link><Link href="/catalog/pechati-ooo/">Печати для ООО</Link><Link href="/catalog/pechati-vrachey/">Печать врача</Link><Link href="/catalog/faksimile/">Факсимиле подписи</Link><Link href="/catalog/shtampy/">Штампы для документов</Link><Link href="/catalog/osnastki/">Оснастки и расходники</Link></nav></section>
   <section className="dark-section" id="order"><div className="section process">
     <div className="section-heading"><h2>Как оформить заказ</h2></div>
     <div className="steps">{[
@@ -40,7 +40,7 @@ export default function Home(){return <>
       <article className="delivery-card"><h3>Оплата</h3><p>Итоговую стоимость, способ и порядок оплаты согласуем до начала изготовления.</p><p className="delivery-note">Для организации уточним возможность оплаты по счёту и состав документов.</p></article>
     </div>
   </section>
-  <section className="section faq">
+  <section className="section faq" id="faq">
     <div className="section-heading"><h2>Вопросы и ответы</h2></div>
     <div className="faq-list">{faqs.map(([q,a])=><details key={q}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div>
     <OrderButton className="button secondary faq-action">Задать вопрос ↗</OrderButton>
@@ -48,6 +48,6 @@ export default function Home(){return <>
   <section className="section contact-block" id="contacts"><div className="section-heading">
     <h2>Контакты</h2>
   </div><ContactContent/></section>
-  <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'Organization',name:'Брендбокс',url:origin,email:contacts.email,telephone:contacts.phone,address:{'@type':'PostalAddress',addressCountry:'RU',addressLocality:'Новосибирск',streetAddress:contacts.streetAddress}})}}/>
+  <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(businessData)}}/>
   <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))})}}/>
 </>}

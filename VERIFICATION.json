@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-19",
+  "checked_at": "2026-10-20",
   "build": "passed",
   "typecheck": "passed",
   "html_pages": 35,
@@ -8,8 +8,8 @@
   "errors": [],
   "form_regression_checks": 14,
   "form_logic": "passed",
-  "browser_visual_qa": "not performed: browser security policy blocks localhost",
-  "publication": "not attempted this session; local delivery selected",
+  "browser_visual_qa": "not performed for local SEO update",
+  "publication": "local update prepared; user must upload patch to GitHub, then verify Cloudflare build",
   "landing_catalog_cards": 19,
   "landing_rendered_new_images": 20,
   "catalog_selection_checks": 19,
@@ -46,5 +46,12 @@
     "rendered_checks": "passed in contact panels and footer"
   },
   "delivery_section": "3 responsive cards: Сроки, Получение, Оплата; no unconfirmed delivery/payment promises",
-  "about_text_line_break": "passed: explicit break before Поможем in production HTML"
+  "about_text_line_break": "passed: explicit break before Поможем in production HTML",
+  "indexable_pages": 30,
+  "products": 19,
+  "semantic_queries": 102,
+  "metadata_canonicals_robots_sitemap_schema_links_assets": "passed",
+  "catalog_regression": "passed: names/prices/image hashes; 19 filter checks",
+  "form_regression": "passed: 14 checks",
+  "seo_verification": "SEO-VERIFICATION.json"
 }
