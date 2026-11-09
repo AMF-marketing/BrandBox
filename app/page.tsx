@@ -9,7 +9,7 @@ export const metadata=pageMetadata('Изготовление печатей и �
 export default function Home(){return <>
   <section className="hero section hero-refresh">
     <div className="hero-copy">
-      <h1>Изготовление печатей и штампов в Новосибирске <span className="hero-speed">за <strong>30 минут</strong></span></h1>
+      <h1><span className="hero-title-line">Изготовление печатей</span> <span className="hero-title-line">и штампов в Новосибирске</span> <span className="hero-speed">за <strong>30 минут</strong></span></h1>
       <p className="hero-description">Срочный заказ без доплаты за скорость. Выберите подходящую оснастку, а мы поможем с макетом и оформлением.</p>
       <div className="hero-actions"><OrderButton className="button">Заказать печать</OrderButton><Link className="button secondary" href="#catalog">Каталог и цены ↗</Link></div>
     </div>
@@ -34,14 +34,6 @@ export default function Home(){return <>
     <div><h2>Печать по вашему макету</h2><p>Укажите текст, размеры и назначение оттиска. Проверим макет и согласуем изготовление.</p><OrderButton product="Индивидуальный макет" className="button light">Обсудить макет ↗</OrderButton></div>
     <img className="custom-logo" src="/brandbox-symbol.svg" width="92" height="103" alt=""/>
   </div></section>
-  <section className="section landing-delivery" id="delivery">
-    <div className="section-heading"><h2>Получение и оплата</h2></div>
-    <div className="delivery-grid">
-      <article className="delivery-card"><h3>Сроки</h3><p>Срок изготовления согласуем после проверки макета и уточнения заказа.</p><p className="delivery-note">Если заказ нужен к определённой дате, сообщите об этом заранее.</p></article>
-      <article className="delivery-card"><h3>Получение</h3><p>Способ, место и время получения согласуем при оформлении заказа.</p><p className="delivery-note">Возможность и стоимость доставки уточняются отдельно.</p></article>
-      <article className="delivery-card"><h3>Оплата</h3><p>Итоговую стоимость, способ и порядок оплаты согласуем до начала изготовления.</p><p className="delivery-note">Для организации уточним возможность оплаты по счёту и состав документов.</p></article>
-    </div>
-  </section>
   <section className="section faq" id="faq">
     <div className="section-heading"><h2>Вопросы и ответы</h2></div>
     <div className="faq-list">{faqs.map(([q,a])=><details key={q}><summary>{q}<span>+</span></summary><p>{a}</p></details>)}</div>

@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-11-09",
+  "build": "passed",
+  "typecheck": "passed",
+  "html_pages": 37,
+  "indexable_pages": 32,
+  "catalog_routes": 27,
+  "products": 19,
+  "semantic_queries": 150,
+  "metadata_canonicals_robots_sitemap_schema_links_assets": "passed",
+  "catalog_regression": "passed: names/prices/image hashes; 19 filter checks",
+  "form_regression": "passed: 14 checks",
+  "browser_visual_qa": "passed: 67 local Chromium browser checks; screenshots inspected separately",
+  "publication": "Not uploaded or published by this session",
+  "errors": [],
+  "browser": {
+    "status": "passed",
+    "browser_checks": 67,
+    "widths": [
+      320,
+      360,
+      390,
+      640,
+      768,
+      1024,
+      1440
+    ],
+    "category_pages": 8,
+    "order": "short single step, demo; no request sent",
+    "reviews": "onsite form prepares email; user must send via mail client",
+    "errors": []
+  },
+  "contact_validation_checks": 14,
+  "screenshots_reviewed": [
+    "desktop-home",
+    "desktop-offers",
+    "desktop-order",
+    "desktop-category",
+    "desktop-review-form",
+    "mobile-home",
+    "mobile-order"
+  ],
+  "reviews_delivery": "Prepared email only; user must send through mail client",
+  "orders_delivery": "Demo; no real recipient configured"
+}

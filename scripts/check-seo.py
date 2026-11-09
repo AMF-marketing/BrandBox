@@ -97,7 +97,7 @@ for row in rows:
     target=row['Целевая страница'];parts=urlsplit(target);key=(parts.path.strip('/')+'/' if parts.path.strip('/') else '')+'index.html'
     check(key in pages,'Semantic target missing: '+target)
     if parts.fragment: check(parts.fragment in pages[key].ids,'Semantic anchor missing: '+target)
-browser_report=root.parent/'brandbox-layout-preview'/'browser-checks.json'
+browser_report=root.parent/'brandbox-compact-preview'/'browser-checks.json'
 browser_status='not performed in this environment'
 if browser_report.exists():
     browser=json.loads(browser_report.read_text(encoding='utf-8'))

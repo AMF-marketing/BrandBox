@@ -10,7 +10,7 @@
   "metadata_canonicals_robots_sitemap_schema_links_assets": "passed",
   "catalog_regression": "passed: names/prices/image hashes; 19 filter checks",
   "form_regression": "passed: 14 checks",
-  "browser_visual_qa": "passed: 90 local Chromium browser checks; screenshots inspected separately",
+  "browser_visual_qa": "passed: 67 local Chromium browser checks; screenshots inspected separately",
   "publication": "local update prepared; user must upload patch to GitHub, then verify Cloudflare build",
   "errors": []
 }
