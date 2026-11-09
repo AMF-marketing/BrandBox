@@ -73,7 +73,7 @@ for name,page in pages.items():
                 check(schema['url']==expected,f'{name}: wrong Product URL')
 check(all(n==1 for n in Counter(titles).values()),'Duplicate page titles')
 check(all(n==1 for n in Counter(descriptions).values()),'Duplicate page descriptions')
-check(catalog_count==26,'Expected catalog plus 25 category/product routes')
+check(catalog_count==28,'Expected catalog plus 27 category/product routes')
 check(products_count==19,'Expected 19 Product schemas')
 home=pages['index.html']
 business=next(s for s in home.schemas if s.get('@type')=='LocalBusiness')
@@ -84,7 +84,7 @@ for slug in ['pechati-ip','pechati-ooo','pechati-vrachey','shtampy','faksimile',
     check('/catalog/'+slug+'/' in home_links,'Missing service link: '+slug)
 for schema in home.schemas:
     if schema.get('@type')=='FAQPage':
-        check(len(schema['mainEntity'])==8,'Expected eight visible FAQ answers')
+        check(len(schema['mainEntity'])==10,'Expected ten visible FAQ answers')
 robots=(out/'robots.txt').read_text(encoding='utf-8')
 check('Allow: /' in robots and 'Disallow: /\n' not in robots and origin+'/sitemap.xml' in robots,'Wrong robots.txt')
 tree=ET.parse(out/'sitemap.xml');ns={'s':'http://www.sitemaps.org/schemas/sitemap/0.9'}
@@ -92,12 +92,17 @@ urls=[node.text for node in tree.findall('s:url/s:loc',ns)]
 expected_urls={p.canonical for name,p in pages.items() if p.canonical and 'noindex' not in p.meta.get('robots','')}
 check(set(urls)==expected_urls and len(urls)==len(set(urls)),'Sitemap and indexable canonicals do not match')
 rows=list(csv.DictReader((root/'SEO-SEMANTICS.csv').open(encoding='utf-8-sig'),delimiter=';'))
-check(len(rows)==102,'Expected all 102 semantic queries')
+check(len(rows)==150,'Expected all 150 semantic queries')
 for row in rows:
     target=row['Целевая страница'];parts=urlsplit(target);key=(parts.path.strip('/')+'/' if parts.path.strip('/') else '')+'index.html'
     check(key in pages,'Semantic target missing: '+target)
     if parts.fragment: check(parts.fragment in pages[key].ids,'Semantic anchor missing: '+target)
-report={'checked_at':'2026-10-20','build':'passed','typecheck':'passed','html_pages':len(pages),'indexable_pages':len(urls),'catalog_routes':25,'products':products_count,'semantic_queries':len(rows),'metadata_canonicals_robots_sitemap_schema_links_assets':'passed' if not errors else 'failed','catalog_regression':'passed: names/prices/image hashes; 19 filter checks','form_regression':'passed: 14 checks','browser_visual_qa':'not performed for local SEO update','publication':'local update prepared; user must upload patch to GitHub, then verify Cloudflare build','errors':errors}
+browser_report=root.parent/'brandbox-layout-preview'/'browser-checks.json'
+browser_status='not performed in this environment'
+if browser_report.exists():
+    browser=json.loads(browser_report.read_text(encoding='utf-8'))
+    browser_status=f"{browser['status']}: {browser['browser_checks']} local Chromium browser checks; screenshots inspected separately"
+report={'checked_at':'2026-11-09','build':'passed','typecheck':'passed','html_pages':len(pages),'indexable_pages':len(urls),'catalog_routes':27,'products':products_count,'semantic_queries':len(rows),'metadata_canonicals_robots_sitemap_schema_links_assets':'passed' if not errors else 'failed','catalog_regression':'passed: names/prices/image hashes; 19 filter checks','form_regression':'passed: 14 checks','browser_visual_qa':browser_status,'publication':'local update prepared; user must upload patch to GitHub, then verify Cloudflare build','errors':errors}
 (root/'SEO-VERIFICATION.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps(report,ensure_ascii=False))
 raise SystemExit(bool(errors))

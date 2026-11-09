@@ -16,8 +16,8 @@ for(const p of products){
 }
 for(const asset of source.photos){const file=path.join(root,'public',asset.file);assert.ok(fs.existsSync(file));assert.equal(crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex'),asset.sha256)}
 assert.equal(JSON.stringify(catalogGroups.map(g=>products.filter(p=>p.group===g).length)),JSON.stringify([3,9,3,4]));
-assert.equal(products.find(p=>p.slug==='mouse').images.length,1);assert.equal(products.find(p=>p.slug==='tablet').images.length,1);assert.equal(Object.keys(legacyCategories).length,6);
-console.log(JSON.stringify({products:19,prices:'previous price + 100 RUB for all 19 items',names:'match source',original_photos:source.photos.length,photo_hashes:'passed',category_counts:[3,9,3,4],duplicate_galleries_removed:2,legacy_category_routes:6,status:'passed'}));
+assert.equal(products.find(p=>p.slug==='mouse').images.length,1);assert.equal(products.find(p=>p.slug==='tablet').images.length,1);assert.equal(Object.keys(legacyCategories).length,8);
+console.log(JSON.stringify({products:19,prices:'previous price + 100 RUB for all 19 items',names:'match source',original_photos:source.photos.length,photo_hashes:'passed',category_counts:[3,9,3,4],duplicate_galleries_removed:2,legacy_category_routes:8,status:'passed'}));
 
 const edits=JSON.parse(fs.readFileSync(path.join(root,'IMAGE-PROCESSING.json'),'utf8'));
 for(const asset of edits.records){assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'public',asset.edited))).digest('hex'),asset.editedSha256)}

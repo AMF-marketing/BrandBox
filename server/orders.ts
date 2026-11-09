@@ -1,6 +1,7 @@
 import {createHmac} from 'node:crypto';
 import {validateContact} from '../lib/order-validation';
 import {products} from '../lib/catalog';
+import {offers,type OfferId} from '../lib/campaigns';
 
 export type OrderResult={status:number;body:{id?:string;error?:string};retryAfter?:number};
 type Env=Record<string,string|undefined>;
@@ -23,7 +24,12 @@ export async function handleOrder(input:unknown,origin:string|undefined,ip:strin
   const name=(data.name as string).trim(),phone=(data.phone as string).replace(/\D/g,''),comment=(data.comment as string).trim();
   const issue=validateContact(name,phone,data.dataConsent===true);
   if(issue)return fail(422,issue);
-  if(name.length>100||(data.phone as string).length>40||!/^[+\d ()-]+$/.test(data.phone as string)||comment.length>3000||/\p{Cc}/u.test(name)||!choices.has(data.product as string)||!['Телефон','Сообщение на телефон'].includes(data.contactMethod as string)||typeof data.marketingConsent!=='boolean'||data.consentVersion!==env.ORDERS_CONSENT_VERSION||!uuid.test(data.requestId as string)||(data.turnstileToken as string).length>2048||!(data.turnstileToken as string).length)return fail(422,'Проверьте данные заявки и согласие.');
+  if(name.length>100||(data.phone as string).length>40||!/^[+\d ()-]+$/.test(data.phone as string)||comment.length>3000||/\p{Cc}/u.test(name)||!choices.has(data.product as string)||!['Телефон','Сообщение на телефон',...(env.ORDERS_TELEGRAM_ENABLED==='true'?['Telegram']:[]),...(env.ORDERS_WHATSAPP_ENABLED==='true'?['WhatsApp']:[])].includes(data.contactMethod as string)||typeof data.marketingConsent!=='boolean'||data.consentVersion!==env.ORDERS_CONSENT_VERSION||!uuid.test(data.requestId as string)||(data.turnstileToken as string).length>2048||!(data.turnstileToken as string).length)return fail(422,'Проверьте данные заявки и согласие.');
+  const source=data.source===undefined?'site':data.source;
+  if(typeof source!=='string'||!['site','promotion','exit-popup'].includes(source))return fail(422,'Неверный источник обращения.');
+  if(data.offerId!==undefined&&(typeof data.offerId!=='string'||!Object.prototype.hasOwnProperty.call(offers,data.offerId)))return fail(422,'Неизвестное предложение.');
+  const offerId=data.offerId as OfferId|undefined;
+  if((source==='exit-popup')!==(offerId==='exit400')||(source==='promotion')!==(!!offerId&&offerId!=='exit400'))return fail(422,'Проверьте предложение и источник заявки.');
   try{
     // Atomic shared limiter, works across serverless instances. Stores only HMAC(IP).
     const key='brandbox:orders:'+createHmac('sha256',env.RATE_LIMIT_HASH_SECRET!).update(ip||'unknown').digest('hex');
@@ -38,7 +44,7 @@ export async function handleOrder(input:unknown,origin:string|undefined,ip:strin
     const challenge=await verification.json() as {success?:boolean;hostname?:string;action?:string};
     if(challenge.success!==true||challenge.hostname!==new URL(env.SITE_ORIGIN!).hostname||challenge.action!=='brandbox-order')return fail(422,'Проверка защиты не пройдена. Повторите её.');
     const catalogItem=products.find(p=>p.name===data.product);
-    const payload={catalogItem:catalogItem?{slug:catalogItem.slug,unitPrice:catalogItem.price,priceFrom:catalogItem.priceFrom,currency:'RUB'}:null,requestId:data.requestId,name,phone:'+'+phone,product:data.product,contactMethod:data.contactMethod,comment,dataConsent:true,marketingConsent:data.marketingConsent,consentVersion:data.consentVersion,receivedAt:new Date().toISOString()};
+    const payload={source,promotion:offerId?{id:offerId,...offers[offerId]}:null,catalogItem:catalogItem?{slug:catalogItem.slug,unitPrice:catalogItem.price,priceFrom:catalogItem.priceFrom,currency:'RUB'}:null,requestId:data.requestId,name,phone:'+'+phone,product:data.product,contactMethod:data.contactMethod,comment,dataConsent:true,marketingConsent:data.marketingConsent,consentVersion:data.consentVersion,receivedAt:new Date().toISOString()};
     const body=JSON.stringify(payload);
     const delivery=await fetcher(env.ORDER_WEBHOOK_URL!,{method:'POST',headers:{'Content-Type':'application/json',Authorization:'Bearer '+env.ORDER_WEBHOOK_TOKEN,'Idempotency-Key':data.requestId as string,'X-BrandBox-Signature':'sha256='+createHmac('sha256',env.ORDER_WEBHOOK_TOKEN!).update(body).digest('hex')},body,signal:AbortSignal.timeout(10000),redirect:'error'});
     if(!delivery.ok)throw Error('receiver rejected');
