@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-11-10",
+  "build": "passed",
+  "typecheck": "passed",
+  "browser": {
+    "status": "passed",
+    "browser_checks": 41,
+    "widths": [
+      320,
+      390,
+      768,
+      1024,
+      1440
+    ],
+    "errors": []
+  },
+  "screenshots_reviewed": [
+    "bundle-390",
+    "bundle-768",
+    "bundle-1440"
+  ],
+  "scope": "Bundle card layout only; retains discount and common order action",
+  "publication": "not published in this session"
+}
